@@ -1,0 +1,2 @@
+﻿  include_juce_audio_plugin_client_Standalone.cpp
+  audioPlugOne_StandalonePlugin.vcxproj -> C:\Users\rolando\Documents\Audio\LearningAudio\SoundSynth\audioPlugOne\Builds\VisualStudio2017\x64\Debug\Standalone Plugin\audioPlugOne.exe

@@ -7,3 +7,14 @@
 *.sln
 *.db
 *.opendb
+audioPlugOne/Builds/VisualStudio2017/.vs/audioPlugOne/v15/.suo
+*.db-shm
+*.db-wal
+*.user
+*.pdb
+thirdJuce/Builds/VisualStudio2017/.vs/thirdJuce/v15/.suo
+*.ipch
+*.ilk
+*.lastcodeanalysissucceeded
+audioPlugOne/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/audioPlu.4E2DC35C.tlog/audioPlugOne_StandalonePlugin.lastbuildstate
+*.lastbuildstate

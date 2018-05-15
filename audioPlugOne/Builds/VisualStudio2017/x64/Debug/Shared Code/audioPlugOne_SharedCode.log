@@ -1,0 +1,29 @@
+﻿  PluginProcessor.cpp
+  PluginEditor.cpp
+  include_juce_audio_basics.cpp
+  include_juce_audio_devices.cpp
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(82): warning C4100: 'index': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(86): warning C4100: 'index': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(91): warning C4100: 'newName': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(91): warning C4100: 'index': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(96): warning C4100: 'samplesPerBlock': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(96): warning C4100: 'sampleRate': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(132): warning C4100: 'midiMessages': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(155): warning C4189: 'channelData': local variable is initialized but not referenced
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(173): warning C4100: 'destData': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(180): warning C4100: 'sizeInBytes': unreferenced formal parameter
+c:\users\rolando\documents\audio\learningaudio\soundsynth\audioplugone\source\pluginprocessor.cpp(180): warning C4100: 'data': unreferenced formal parameter
+  include_juce_audio_formats.cpp
+  include_juce_audio_plugin_client_utils.cpp
+  include_juce_audio_processors.cpp
+  include_juce_audio_utils.cpp
+  include_juce_core.cpp
+  include_juce_cryptography.cpp
+  include_juce_data_structures.cpp
+  include_juce_events.cpp
+  include_juce_graphics.cpp
+  include_juce_gui_basics.cpp
+  include_juce_gui_extra.cpp
+  include_juce_opengl.cpp
+  include_juce_video.cpp
+  audioPlugOne_SharedCode.vcxproj -> C:\Users\rolando\Documents\Audio\LearningAudio\SoundSynth\audioPlugOne\Builds\VisualStudio2017\x64\Debug\Shared Code\audioPlugOne.lib
