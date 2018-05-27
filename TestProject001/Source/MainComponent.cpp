@@ -26,7 +26,7 @@ void MainComponent::paint (Graphics& g)
 
     g.setFont (Font (16.0f));
     g.setColour (Colours::white);
-    g.drawText ("will get a mini korg soon!", getLocalBounds(), Justification::centred, true);
+    g.drawText ("will get a mini korg soon ...", getLocalBounds(), Justification::centred, true);
 }
 
 void MainComponent::resized()
