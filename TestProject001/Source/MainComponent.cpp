@@ -25,7 +25,7 @@ void MainComponent::paint (Graphics& g)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
     g.setFont (Font (16.0f));
-    g.setColour (Colours::white);
+    g.setColour (Colours::palegreen);
     g.drawText ("will get a mini korg soon ...", getLocalBounds(), Justification::centred, true);
 }
 

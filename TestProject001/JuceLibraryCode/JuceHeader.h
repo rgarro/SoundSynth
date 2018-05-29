@@ -38,7 +38,7 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "TestProject001";
+    const char* const  projectName    = ":::MainWindowTutorial:::";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }

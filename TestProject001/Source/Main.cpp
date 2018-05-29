@@ -61,8 +61,7 @@ public:
     {
     public:
         MainWindow (String name)  : DocumentWindow (name,
-                                                    Desktop::getInstance().getDefaultLookAndFeel()
-                                                                          .findColour (ResizableWindow::backgroundColourId),
+                                                    Colours::palegreen,
                                                     DocumentWindow::allButtons)
         {
             setUsingNativeTitleBar (true);
@@ -70,6 +69,7 @@ public:
 
             centreWithSize (getWidth(), getHeight());
             setVisible (true);
+            this->setBackgroundColour(Colours::palegreen);
         }
 
         void closeButtonPressed() override
