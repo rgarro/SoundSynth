@@ -7,6 +7,7 @@
 */
 
 #include "MainComponent.h"
+#include "Wall.h"
 
 //==============================================================================
 MainComponent::MainComponent()
@@ -26,7 +27,7 @@ void MainComponent::paint (Graphics& g)
 
     g.setFont (Font (16.0f));
     g.setColour (Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.drawText ("The revolution wont be televised!", getLocalBounds(), Justification::centred, true);
 }
 
 void MainComponent::resized()

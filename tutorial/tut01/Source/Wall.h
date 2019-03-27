@@ -3,7 +3,8 @@
 
     Wall.h
     Created: 26 Mar 2019 7:32:24pm
-    Author:  Rolando Garroc
+    Author:  Rolando Garro
+ check it out: https://soundcloud.com/dorje-trolo/redwalldub
 
   ==============================================================================
 */
