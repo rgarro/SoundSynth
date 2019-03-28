@@ -9,7 +9,7 @@
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-
+#include "Wall.h"
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
@@ -32,4 +32,5 @@ private:
 
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
+    Wall wall;
 };

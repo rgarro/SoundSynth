@@ -31,8 +31,10 @@ void Wall::paint (Graphics& g)
        You should replace everything in this method with your own
        drawing code..
     */
-
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));   // clear the background
+    Rectangle <float> wall(0,0,200,120);
+    g.fillCheckerBoard(wall,20, 10, Colours::sandybrown, Colours::saddlebrown);
+    g.drawRect(wall);
+    /*g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));   // clear the background
 
     g.setColour (Colours::grey);
     g.drawRect (getLocalBounds(), 1);   // draw an outline around the component
@@ -40,7 +42,7 @@ void Wall::paint (Graphics& g)
     g.setColour (Colours::white);
     g.setFont (14.0f);
     g.drawText ("Wall", getLocalBounds(),
-                Justification::centred, true);   // draw some placeholder text
+                Justification::centred, true); */  // draw some placeholder text
 }
 
 void Wall::resized()
