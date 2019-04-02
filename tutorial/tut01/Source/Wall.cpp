@@ -31,7 +31,7 @@ void Wall::paint (Graphics& g)
        You should replace everything in this method with your own
        drawing code..
     */
-    Rectangle <float> wall(0,0,200,120);
+    Rectangle <float> wall(200,200,200,120);
     g.fillCheckerBoard(wall,20, 10, Colours::sandybrown, Colours::saddlebrown);
     g.drawRect(wall);
     /*g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));   // clear the background
