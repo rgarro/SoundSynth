@@ -5,6 +5,10 @@
               userNotes="check it out https://soundcloud.com/dorje-trolo/redwalldub">
   <MAINGROUP id="vcyWpc" name="tut01">
     <GROUP id="{F1458C34-8DA1-CF54-AC4D-C491A2F4568C}" name="Source">
+      <FILE id="RkoFFk" name="GrassComponent.cpp" compile="1" resource="0"
+            file="Source/GrassComponent.cpp"/>
+      <FILE id="DodR6L" name="GrassComponent.h" compile="0" resource="0"
+            file="Source/GrassComponent.h"/>
       <FILE id="oxNbnW" name="Wall.cpp" compile="1" resource="0" file="Source/Wall.cpp"/>
       <FILE id="jDB1m1" name="Wall.h" compile="0" resource="0" file="Source/Wall.h"/>
       <FILE id="nBEy3W" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
