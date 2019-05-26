@@ -39,6 +39,8 @@ GrassComponent::~GrassComponent()
 
 void GrassComponent::paint (Graphics& g)
 {
+    g.setColour(Colours::green);
+    g.drawLine(10, getWidth()-10, 325, 10.0f);
     /* This demo code just fills the component's background and
        draws some placeholder text to get you started.
 
@@ -46,7 +48,7 @@ void GrassComponent::paint (Graphics& g)
        drawing code..
     */
 
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));   // clear the background
+   /* g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));   // clear the background
 
     g.setColour (Colours::grey);
     g.drawRect (getLocalBounds(), 1);   // draw an outline around the component
@@ -54,7 +56,7 @@ void GrassComponent::paint (Graphics& g)
     g.setColour (Colours::white);
     g.setFont (14.0f);
     g.drawText ("GrassComponent", getLocalBounds(),
-                Justification::centred, true);   // draw some placeholder text
+                Justification::centred, true);   // draw some placeholder text*/
 }
 
 void GrassComponent::resized()

@@ -8,12 +8,14 @@
 
 #include "MainComponent.h"
 #include "Wall.h"
+#include "GrassComponent.h"
 
 //==============================================================================
 MainComponent::MainComponent()
 {
     setSize (600, 400);
     addAndMakeVisible(wall);
+    addAndMakeVisible(Grass);
 }
 
 MainComponent::~MainComponent()
@@ -24,6 +26,7 @@ MainComponent::~MainComponent()
 void MainComponent::paint (Graphics& g)
 {
     g.fillAll(Colours::skyblue);
+    //wall.paint(<#Graphics &#>);
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     /*g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
@@ -35,4 +38,5 @@ void MainComponent::paint (Graphics& g)
 void MainComponent::resized()
 {
     wall.setBounds(getLocalBounds());
+    Grass.setBounds(getLocalBounds());
 }
