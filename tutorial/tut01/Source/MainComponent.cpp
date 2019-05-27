@@ -16,6 +16,7 @@ MainComponent::MainComponent()
     setSize (600, 400);
     addAndMakeVisible(wall);
     addAndMakeVisible(Grass);
+    addAndMakeVisible(root);
 }
 
 MainComponent::~MainComponent()
@@ -39,4 +40,5 @@ void MainComponent::resized()
 {
     wall.setBounds(getLocalBounds());
     Grass.setBounds(getLocalBounds());
+    root.setBounds(getLocalBounds());
 }
