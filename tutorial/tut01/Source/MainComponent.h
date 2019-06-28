@@ -12,6 +12,7 @@
 #include "Wall.h"
 #include "GrassComponent.h"
 #include "RootComponent.h"
+#include "SunComponent.h"
 
 //==============================================================================
 /*
@@ -38,4 +39,5 @@ private:
     Wall wall;
     GrassComponent Grass;
     RootComponent root;
+    SunComponent sun;
 };
