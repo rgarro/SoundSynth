@@ -31,6 +31,7 @@ void RootComponent::paint (Graphics& g)
     p.lineTo(400, 190);
     p.lineTo(300, 140);
     p.closeSubPath();
+    g.fillPath(p);
     g.strokePath(p, PathStrokeType(15.0f));
 }
 

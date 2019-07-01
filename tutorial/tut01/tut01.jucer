@@ -5,6 +5,9 @@
               userNotes="check it out https://soundcloud.com/dorje-trolo/redwalldub">
   <MAINGROUP id="vcyWpc" name="tut01">
     <GROUP id="{F1458C34-8DA1-CF54-AC4D-C491A2F4568C}" name="Source">
+      <FILE id="esj5hY" name="TextComponent.h" compile="0" resource="0" file="Source/TextComponent.h"/>
+      <FILE id="BIx8Tl" name="TextComponent.cpp" compile="1" resource="0"
+            file="Source/TextComponent.cpp"/>
       <FILE id="gLCdrE" name="SunComponent.h" compile="0" resource="0" file="Source/SunComponent.h"/>
       <FILE id="GUQpNC" name="SunComponent.cpp" compile="1" resource="0"
             file="Source/SunComponent.cpp"/>

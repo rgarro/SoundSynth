@@ -13,6 +13,7 @@
 #include "GrassComponent.h"
 #include "RootComponent.h"
 #include "SunComponent.h"
+#include "TextComponent.h"
 
 //==============================================================================
 /*
