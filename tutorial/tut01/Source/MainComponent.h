@@ -41,4 +41,5 @@ private:
     GrassComponent Grass;
     RootComponent root;
     SunComponent sun;
+    TextComponent text;
 };

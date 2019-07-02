@@ -9,6 +9,9 @@
 #include "MainComponent.h"
 #include "Wall.h"
 #include "GrassComponent.h"
+#include "RootComponent.h"
+#include "SunComponent.h"
+#include "TextComponent.h"
 
 //==============================================================================
 MainComponent::MainComponent()
@@ -18,6 +21,7 @@ MainComponent::MainComponent()
     addAndMakeVisible(Grass);
    addAndMakeVisible(root);
     addAndMakeVisible(sun);
+    addAndMakeVisible(text);
 }
 
 MainComponent::~MainComponent()
@@ -43,4 +47,5 @@ void MainComponent::resized()
     Grass.setBounds(getLocalBounds());
     root.setBounds(getLocalBounds());
     sun.setBounds(getLocalBounds());
+    text.setBounds(getLocalBounds());
 }
